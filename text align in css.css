@@ -1,0 +1,49 @@
+h1{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    text-decoration: blue double underline;
+}
+h2{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    text-decoration: blue double underline ;
+}
+p{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+img{
+    image-resolution: center;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+label{
+    color:white;
+}
+form{
+    text-align: center;
+}
+span{
+    text-align: right;
+}
+button{
+    color: rgb(245, 245, 100);
+    background-color: #000;
+}
+header
+ {text-align: center;}
+ body{
+    text-align: center;
+ }

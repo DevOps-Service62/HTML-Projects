@@ -1,0 +1,31 @@
+.container{
+    height: 400px;
+    width: 80%;
+    border: 2px solid #000;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    box-shadow: 3px 3px 5px yellowgreen;
+}
+.container div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    transition: 1s linear 0.5s;
+}
+
+.container div:hover{
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px gray;
+    height: 100px;
+    width: 100px;
+    transform: rotate(20deg);
+    text-align: center;
+}

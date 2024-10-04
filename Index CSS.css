@@ -1,0 +1,118 @@
+h1{
+    color: rgb(184, 8, 8);
+}
+#signup{
+    background-color: rgb(184, 8, 8);
+    color: white;
+}
+*{
+    font-family: 'Courier New';
+}
+h3{
+    color: rgb(184, 8, 8);
+}
+p .follow{
+    color: rgb(193, 6, 193);
+    text-decoration: underline;
+    font-family: 'Courier New';
+    font-size: 20px;
+    line-height: 2%;
+    background-color: yellow;
+}
+nav a{
+    color: green;
+    text-decoration: black underline;
+}
+nav ul li a {
+    color: #000;
+    background-color: green;
+    text-decoration: red underline;
+}
+p + h3 {
+    color: rgb(184, 8, 8);
+    text-decoration: underline;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+div > input{
+    background-color: rgb(245, 245, 62);
+}
+input[type=password]{
+    color: green;
+}
+input[type=text]{
+    color: red;
+}
+div [id]{
+    color: green;
+}
+p:hover{
+    color: green;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label {
+   color: red;
+   font-weight: bold;
+}
+div>p{
+    color: green;
+}
+.ODD:hover{
+    color:red;
+}
+.Even:hover{
+    color: yellow;
+}
+.ODD:active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+[type="checkbox"]:checked + label {
+    color: yellow;
+}
+#Gender:checked{
+    color: yellow;
+}
+.upvote:hover{
+    background-color: #000;
+}
+span button:hover{
+    background-color: yellow;
+}
+#signup:hover{
+    background-color: green;
+}
+#login:hover{
+    background-color: red;
+}
+.checked:hover{
+    color: red;
+    text-align: center;
+    text-decoration: double underline black;
+    font-family: calc(123);
+    font-weight: bolder;
+    line-height: normal;
+}
+#google:hover{
+    color: #000;
+    text-decoration: overline;
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: 900;
+}
+h1::first-letter{
+    color: yellow;
+}
+h3::first-letter{
+    color: green;
+}
+h2::first-letter{
+    color: green;
+}
+#hulk::first-line{
+    color: blue;
+}
+#hulk::selection{
+    background-color: yellow;
+}

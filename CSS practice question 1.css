@@ -1,0 +1,21 @@
+h2{
+    color: rgb(255, 255, 120);
+}
+p{
+    color: white;
+    background-color: black;
+}
+button{
+    color: white;
+    background-color: blue;
+}
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(195, 198, 46);
+    background-color: #ff0;
+}

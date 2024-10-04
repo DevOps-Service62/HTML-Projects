@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button In HTML</title>
+</head>
+<body>
+    <form>
+        <div>
+            Please Select your Gender:
+            <input type="radio" id="Male" name="gender" value="Male" >
+            <label for="Male"> Male </label>
+            <input type="radio" id="Female" name="gender" value="Female" >
+            <label for="Female"> Female </label>
+            <input type="radio" id="Transgender" name="gender" value="Transgender" >
+            <label for="Transgender"> Transgender </label>
+        </div>
+        <div>
+            Choose your Subject
+            <select name="Subj" id="Subj">
+                <option> Choose your Favourite Suject</option>
+                <option value="Maths"> Maths </option>
+                <option value="Sci"> Science </option>
+                <option value="eng"> English </option>
+                <option value="phy"> Physics </option>
+                <option value="che"> Chemistry </option>
+                <option value="pks"> Pak Studies </option>
+            </select>
+        </div>
+        <div>
+            <label for="age"> Select your age</label>
+            <input type="range" id="age" min="18" max="40" step="1" name="age" value="19">
+        </div>
+        <div>
+            <label for="weight"> Select your weight </label>
+            <input type="range" id="weight" min="30" max="80" name="weight" step="1" value="30"
+        </div>
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>

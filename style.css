@@ -1,0 +1,48 @@
+h1 {
+    color: yellow;  background-color: black;
+}
+h2 {
+    color: yellow; background-color: black;
+}
+div {
+    color: white; background-color: black;
+}
+button {
+    color: yellow; background-color: black;
+}
+p {
+    color: black; background-color: yellow;
+}
+table{
+    color: yellow; background-color: black;
+}
+caption{
+    color: yellow; background-color: black;
+}
+background{
+    color: black;
+}
+select{
+    color: yellow; background-color: black;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+}
+thead{
+    background-color: black;
+}
+textarea{
+    color: yellow; background-color: black;
+}
+hr{
+    background: black; color: black;
+}
+label{
+    color: white; background-color: black;
+}
+input{
+    color: green; background-color: black;
+}
