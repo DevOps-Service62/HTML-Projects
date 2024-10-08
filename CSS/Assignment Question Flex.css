@@ -1,0 +1,52 @@
+section.parent-sec {
+    height: 400px;
+    width:  400px;
+    border: 5px solid #32c8f1;
+    display: flex;
+    font-size: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    background: linear-gradient(to right, #00800185,#ffff006e,#ff000078);
+}
+.parent-sec div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    background-color: grey;
+    border-radius: 10px;
+    transition: 1s ease-in 0.5s;
+    box-shadow: 10px 10px 15px #000;
+}
+
+.parent-sec div:hover{
+    height: 120px;
+    width: 120px;
+    box-shadow: 20px 20px 30px #000;
+    
+}
+
+section.\32 nd {
+    height: 50px;
+    width: 900px;
+    border: 2px solid#000;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff000070;
+    font-size: 24px;
+}
+
+.inner{
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}
